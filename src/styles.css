@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}   
+
+html {
+    font-weight: 500;
+}
+
+/*-------------------------------------- Utilities ------------------------------------------ */
+.myBg-dark {
+    background-color: #03001C;
+}
+
+.myBg-Light {
+    background-color: #5B8FB9;
+}
+
+.myBg-love {
+    background-color: #4ec9e1;
+}
+
+.myText-dark {
+    color: #03001C;
+}
+
+.myText-light {
+    color: #6796e5;
+}
+
+.myText-love {
+    color: #4ec9e1;
+}
+
+.myBtn-light {
+    background-color: white;
+    color: #4ec9e1;
+    padding: 0.4rem 0.6rem;
+    border: 2px solid #4ec9e1;
+    border-radius: 5px;
+    /* font-weight: bold;   */
+    display: inline-block;
+    width: 100%;
+}
+
+.myBtn-light:hover {
+    background-color: #8aebff;
+    color: white;
+}
+
+.myBtn {
+    background-color: #4ec9e1;
+    color: white;
+    padding: 0.4rem 0.6rem;
+    border: none;
+    border-radius: 5px;
+    /* font-weight: bold; */
+    display: inline-block;
+    width: 100%;
+}
+
+.myBtn:hover {
+    background-color: #8aebff;
+    border: 2px solid #4ec9e1;
+}
+
+/* ---------------------------- Welcome Page ------------------------ */
+
+.welcomeText:hover {
+    color: #8aebff;
+}
+
+.welcomeMain {
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+}
+
+.welcomeDiv {
+    width: 18%;
+}
+
+
+/* ---------------------------- Login Page ------------------------ */
+
+.loginMain {
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    color: white;
+}
+
+.formDiv {
+    width: 25%;
+    border: 2px solid white;
+}
