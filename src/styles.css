@@ -68,6 +68,16 @@ html {
     border: 2px solid #4ec9e1;
 }
 
+.custom-gradient1 {
+    background: rgb(53,78,149);
+    background: linear-gradient(90deg, rgba(53,78,149,1) 14%, rgba(72,181,202,1) 89%, rgba(96,179,196,1) 100%);
+}
+
+.customHover:hover {
+    color: #8aebff;
+}
+
+
 /* ---------------------------- Welcome Page ------------------------ */
 
 .welcomeText:hover {
@@ -100,3 +110,6 @@ html {
     width: 25%;
     border: 2px solid white;
 }
+
+
+/* ---------------------------- Login Page ------------------------ */
