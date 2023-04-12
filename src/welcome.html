@@ -10,18 +10,23 @@
 			integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
 			crossorigin="anonymous"
 		/>
-		<link rel="stylesheet" href="styles.css">
+		<link rel="stylesheet" href="./css/styles.css">
 		<script src="https://kit.fontawesome.com/36effec9ae.js" crossorigin="anonymous"></script>
 		<script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
 		<title>Spotify Pro</title>
 	</head>
 	<body style="background-color: #03001C;">
-		<main class="welcomeMain">
+		<main class="welcomeMain d-flex justify-content-center align-items-lg-center">
 			<section class="text-center welcomeDiv">
 				<div class="text-center">
-					<img src="./resources/headphones.svg" class="p-1" style="width: 75px;" alt="music-icon">
+					<img src="../resources/headphones.svg" class="p-1" style="width: 75px;" alt="music-icon">
 					<h1 class="myText-love mb-3 mt-3 welcomeText ml-5">Spotify Pro</h1>
 				</div>
+				<p class="text-white mb-3 mt-3 ml-5">Choose Your Profile</p>
+				<div class="d-flex flex-row mb-3 rounded">		
+					<a href="#" class="w-50"><button class="welcomeBtnAct active rounded-start" href="login.html">Artist</button></a><a href="#" class="w-50"><button class="welcomeBtnAct rounded-end" href="login.html">Listener</button></a>
+				</div>
+				
 				<a href="login.html"><button class="myBtn-light welcomeBtn mb-3" href="login.html">Login</button></a>
 				<a href="signup.html"><button class="myBtn welcomeBtn mb-3">Sign Up</button></a>
 			</section>	
@@ -33,4 +38,6 @@
 			crossorigin="anonymous"
 		></script> -->
 	</body>
+	<script src="./js/jquery-3.6.4.min.js"></script>
+	<script src="./js/index.js"></script>
 </html>

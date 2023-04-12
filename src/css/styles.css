@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}   
+
+html {
+    font-weight: 500;
+}
+
+:root {
+    --clr-dark: #03001C;
+    --clr-medium: #5B8FB9;
+    --clr-light: #4ec9e1;
+    --clr-hover-light: #8aebff; 
+  }
+
+/*-------------------------------------- Utilities ------------------------------------------ */
+.myBg-dark {
+    background-color: var(--clr-dark);
+}
+
+.myBg-Light {
+    background-color: var(--clr-medium);
+}
+
+.myBg-love {
+    background-color: var(--clr-light);
+}
+
+.myText-dark {
+    color: var(--clr-dark);
+}
+
+.myText-light {
+    color: var(--clr-medium);
+}
+
+.myText-love {
+    color: var(--clr-light);
+}
+
+.myBtn-light {
+    background-color: white;
+    color: var(--clr-light);
+    padding: 0.4rem 0.6rem;
+    border: 2px solid var(--clr-light);
+    border-radius: 5px;
+    /* font-weight: bold;   */
+    display: inline-block;
+    width: 100%;
+}
+
+
+
+.myBtn-light:hover {
+    background-color: var(--clr-hover-light);
+    color: white;
+}
+
+.myBtn {
+    background-color: var(--clr-light);
+    color: white;
+    padding: 0.4rem 0.6rem;
+    border: none;
+    border-radius: 5px;
+    /* font-weight: bold; */
+    display: inline-block;
+    width: 100%;
+}
+
+.myBtn:hover{
+    background-color: var(--clr-hover-light);
+    border: 2px solid var(--clr-light);
+}
+
+.custom-gradient1 {
+    background: rgb(53,78,149);
+    background: linear-gradient(90deg, rgba(53,78,149,1) 14%, rgba(72,181,202,1) 89%,   (96,179,196,1) 100%);
+}
+
+.custom-gradient2 {
+    background: rgb(90,166,186);
+background: linear-gradient(90deg, rgba(90,166,186,1) 3%, rgba(68,169,167,1) 5%, rgba(53,78,149,1) 100%);
+}
+
+.customHover:hover {
+    color: var(--clr-hover-light);
+}
+
+
+/* ---------------------------- Welcome Page ------------------------ */
+
+.welcomeText:hover {
+    color: var(--clr-hover-light);
+}
+
+.welcomeMain {
+    height: 700px;
+}
+
+.welcomeDiv {
+    width: 18%;
+}
+
+
+.welcomeBtnAct {
+    background-color: white;
+    color: var(--clr-light);
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+    width: 100%;
+    border: none;
+    display: inline-block;
+}
+
+.active {
+    background-color: var(--clr-light);
+    color: white;
+}
+
+
+
+/* ---------------------------- Login Page ------------------------ */
+
+.loginMain {
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    color: white;
+}
+
+.formDiv {
+    width: 25%;
+    border: 2px solid white;
+}
+
+
+/* ---------------------------- Signup Page ------------------------ */
+
+.signUpMain {
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    color: white;
+}
