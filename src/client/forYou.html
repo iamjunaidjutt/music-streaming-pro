@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<link rel="apple-touch-icon" sizes="180x180" href="../../resources/apple-touch-icon.png" />
+	<link rel="icon" type="image/png" sizes="32x32" href="../../resources/favicon-32x32.png" />
+	<link rel="icon" type="image/png" sizes="16x16" href="../../resources/favicon-16x16.png" />
+	<link rel="manifest" href="../../resources/site.webmanifest" />
+	<link rel="mask-icon" href="../../resources/safari-pinned-tab.svg" color="#5bbad5" />
+	<meta name="msapplication-TileColor" content="#da532c" />
+	<meta name="theme-color" content="#ffffff" />
+	<title>Spotify Pro</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
+	<link rel="stylesheet" href="css/styles.css" />
+	<script src="https://kit.fontawesome.com/36effec9ae.js" crossorigin="anonymous"></script>
+	<script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+</head>
+
+<body>
+	<div class="d-flex customLinearGradient">
+		<nav class="d-flex flex-column justify-content-between flex-shrink-0 p-3 vh-100 myBg-Light position-fixed"
+			style="width: 280px;">
+			<div>
+				<a class="navbar-brand" href="./home.html">
+					<img src="/resources/headphones.svg" class="mb-1" alt="Bootstrap" width="30" height="24" />
+					<span class="fs-4 mt-4 myText-dark">Spotify Pro</span>
+				</a>
+				<hr>
+				<ul class="nav nav-pills flex-column mb-auto">
+					<li class="nav-item lHover">
+						<a href="./browse.html" class="myNav-link L-Affiliate-Tagged" aria-current="page">
+							<box-icon name='music' type='solid' color='#ffffff'></box-icon>
+							Browse
+						</a>
+					</li>
+					<li class="nav-item">
+						<a href="./forYou.html" class="myNav-link L-Affiliate-Tagged">
+							<box-icon name='heart' type='solid' color='#ffffff'></box-icon>
+							For You
+						</a>
+					</li>
+					<li class="nav-item">
+						<a href="./playlist.html" class="myNav-link L-Affiliate-Tagged">
+							<box-icon name='playlist' type='solid' color='#ffffff'></box-icon>
+							Playlists
+						</a>
+					</li>
+				</ul>
+				<div class="mt-5">
+					<p class="px-2 fw-light text-white fs-5">Your Music</p>
+					<hr>
+					<ul class="nav nav-pills flex-column mb-auto">
+						<li class="nav-item lHover">
+							<a href="#" class="myNav-link L-Affiliate-Tagged" aria-current="page">
+								Liked Track
+							</a>
+						</li>
+						<li class="nav-item">
+							<a href="#" class="myNav-link L-Affiliate-Tagged">
+								Artists
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="dropdown">
+				<hr>
+				<a href="#"
+					class="d-flex align-items-center text-white text-decoration-none dropdown-toggle L-Affiliate-Tagged"
+					data-bs-toggle="dropdown" aria-expanded="false">
+					<img src="https://github.com/mdo.png" alt="" width="32" height="32" class="rounded-circle me-2">
+					<strong>mdo</strong>
+				</a>
+				<ul class="dropdown-menu dropdown-menu-dark text-small shadow">
+					<li><a class="dropdown-item L-Affiliate-Tagged" href="#">Switch to Artist</a></li>
+					<li><a class="dropdown-item L-Affiliate-Tagged" href="#">Settings</a></li>
+					<li><a class="dropdown-item L-Affiliate-Tagged" href="#">Profile</a></li>
+					<li>
+						<hr class="dropdown-divider">
+					</li>
+					<li><a class="dropdown-item L-Affiliate-Tagged" href="#">Sign out</a></li>
+				</ul>
+			</div>
+		</nav>
+		<main class="container-md py-4" style="padding-left: 15em;">
+			<h2 class="fs-1 fw-bold">For You With Love</h2>
+            <section class="newReleases mt-4">
+                <h3 class="fs-3 mb-3">New Releases</h3>
+                <hr>
+                <div class="my-4 row">
+                    <div class="col-md-9 mx-auto">
+                        <div id="carouselExampleCaptions" class="carousel slide" style="width: 50em; height: 30em;">
+                            <div class="carousel-indicators">
+                              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner" style="width: 50em; height: 30em;">
+                              <div class="carousel-item active">
+                                <img src="../../resources/newReleases/dropout.jpeg" class="d-block w-100" alt="dropout">
+                                <!-- <div class="carousel-caption d-none d-md-block">
+                                  <h5>Dropout</h5>
+                                  <p>Some representative placeholder content for the first slide.</p>
+                                </div> -->
+                              </div>
+                              <div class="carousel-item">
+                                <img src="../../resources/newReleases/undead.jpeg" class="d-block w-100" alt="undead">
+                                <!-- <div class="carousel-caption d-none d-md-block">
+                                  <h5>Undead</h5>
+                                  <p>Some representative placeholder content for the second slide.</p>
+                                </div> -->
+                              </div>
+                              <div class="carousel-item">
+                                <img src="../../resources/newReleases/wanted.jpeg" class="d-block w-100" alt="wanted">
+                                <!-- <div class="carousel-caption d-none d-md-block">
+                                  <h5>Wanted</h5>
+                                  <p>Some representative placeholder content for the third slide.</p>
+                                </div> -->
+                              </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                          </div>
+                    </div>
+                </div>
+            </section>
+            <section class="recommendedSong my-5">
+                <h3 class="fs-3 mb-3">Recommended Songs</h3>
+                <hr>
+                <div class="songs">
+                    <div class="p-3 row text-white-50 shadow myBg-gray rounded my-3">
+                        <div class="col">01</div>
+                        <div class="col-5">This is the first song</div>
+                        <div class="col-3">Blur</div>
+                        <div class="col">03:15</div>
+                        <div class="dropdown col">
+                            <a href="#" class="d-flex align-items-center text-white text-decoration-none L-Affiliate-Tagged"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <box-icon name='dots-horizontal-rounded' color='#ffffff'></box-icon>
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark text-small shadow">
+                                <li><a class="dropdown-item L-Affiliate-Tagged" href="#">Play</a></li>
+                                <li><a class="dropdown-item L-Affiliate-Tagged" href="#">Add to Favorite</a></li>
+                                <li><a class="dropdown-item L-Affiliate-Tagged" href="#">Remove from Playlist</a></li>
+                                <li><a class="dropdown-item L-Affiliate-Tagged" href="#">Share</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="p-3 row text-white-50 shadow myBg-gray rounded my-3">
+                        <div class="col">02</div>
+                        <div class="col-5">This is the second song</div>
+                        <div class="col-3">Asking Alexanderia</div>
+                        <div class="col">03:03</div>
+                        <div class="dropdown col">
+                            <a href="#" class="d-flex align-items-center text-white text-decoration-none L-Affiliate-Tagged"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <box-icon name='dots-horizontal-rounded' color='#ffffff'></box-icon>
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark text-small shadow">
+                                <li><a class="dropdown-item L-Affiliate-Tagged" href="#">Play</a></li>
+                                <li><a class="dropdown-item L-Affiliate-Tagged" href="#">Add to Favorite</a></li>
+                                <li><a class="dropdown-item L-Affiliate-Tagged" href="#">Remove from Playlist</a></li>
+                                <li><a class="dropdown-item L-Affiliate-Tagged" href="#">Share</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="p-3 row text-white-50 shadow myBg-gray rounded my-3">
+                        <div class="col">03</div>
+                        <div class="col-5">This is the third song</div>
+                        <div class="col-3">Avicii</div>
+                        <div class="col">04:12</div>
+                        <div class="dropdown col">
+                            <a href="#" class="d-flex align-items-center text-white text-decoration-none L-Affiliate-Tagged"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <box-icon name='dots-horizontal-rounded' color='#ffffff'></box-icon>
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark text-small shadow">
+                                <li><a class="dropdown-item L-Affiliate-Tagged" href="#">Play</a></li>
+                                <li><a class="dropdown-item L-Affiliate-Tagged" href="#">Add to Favorite</a></li>
+                                <li><a class="dropdown-item L-Affiliate-Tagged" href="#">Remove from Playlist</a></li>
+                                <li><a class="dropdown-item L-Affiliate-Tagged" href="#">Share</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="p-3 row text-white-50 shadow myBg-gray rounded my-3">
+                        <div class="col">04</div>
+                        <div class="col-5">This is the fourth song</div>
+                        <div class="col-3">Blur</div>
+                        <div class="col">02:50</div>
+                        <div class="dropdown col">
+                            <a href="#" class="d-flex align-items-center text-white text-decoration-none L-Affiliate-Tagged"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <box-icon name='dots-horizontal-rounded' color='#ffffff'></box-icon>
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark text-small shadow">
+                                <li><a class="dropdown-item L-Affiliate-Tagged" href="#">Play</a></li>
+                                <li><a class="dropdown-item L-Affiliate-Tagged" href="#">Add to Favorite</a></li>
+                                <li><a class="dropdown-item L-Affiliate-Tagged" href="#">Remove from Playlist</a></li>
+                                <li><a class="dropdown-item L-Affiliate-Tagged" href="#">Share</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="p-3 row text-white-50 shadow myBg-gray rounded my-3">
+                        <div class="col">05</div>
+                        <div class="col-5">This is the fifth song</div>
+                        <div class="col-3">Avicii</div>
+                        <div class="col">04:50</div>
+                        <div class="dropdown col">
+                            <a href="#" class="d-flex align-items-center text-white text-decoration-none L-Affiliate-Tagged"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <box-icon name='dots-horizontal-rounded' color='#ffffff'></box-icon>
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark text-small shadow">
+                                <li><a class="dropdown-item L-Affiliate-Tagged" href="#">Play</a></li>
+                                <li><a class="dropdown-item L-Affiliate-Tagged" href="#">Add to Favorite</a></li>
+                                <li><a class="dropdown-item L-Affiliate-Tagged" href="#">Remove from Playlist</This is the
+                                            first song Blur 03:15 02 a>
+                                </li>
+                                <li><a class="dropdown-item L-Affiliate-Tagged" href="#">Share</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="recommendedPlaylists my-5">
+                <h3 class="fs-3 mb-3">Recommended Playlists</h3>
+                <hr>
+                <div class="row">
+                    <a href="" class="linkStyling col-3">
+                        <div class=" m-3 bg-danger p-3 fw-bold text-center rounded fs-4 py-5"><box-icon name='deezer' type='logo' color='#ffffff' ></box-icon><div class="">Pop</div></div>
+                    </a>
+                    <a href="" class="linkStyling col-3">
+                        <div class="m-3 bg-warning p-3 fw-bold text-center rounded fs-4 py-5"><box-icon name='deezer' type='logo' color='#ffffff' ></box-icon><div class="">Rock</div></div>
+                    </a>
+                    <a href="" class="linkStyling col-3">
+                        <div class="m-3 bg-success p-3 fw-bold text-center rounded fs-4 py-5"><box-icon name='deezer' type='logo' color='#ffffff' ></box-icon><div class="">Chill</div></div>
+                    </a>
+                    <a href="" class="linkStyling col-3">
+                        <div class="m-3 bg-secondary p-3 fw-bold text-center rounded fs-4 py-5"><box-icon name='deezer' type='logo' color='#ffffff' ></box-icon><div class="">Sleep</div></div>
+                    </a>
+                </div>
+            </section>
+		</main>	
+	</div>
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+		integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+		integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+		crossorigin="anonymous	"></script>
+</body>
+
+</html>
