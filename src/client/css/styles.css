@@ -91,11 +91,9 @@ body {
     padding: 0.4rem 0.6rem;
     /* border: 2px solid var(--clr-light); */
     border-radius: 5px;
-    /* font-weight: bold;   */
     display: inline-block;
     text-decoration: none;
-    font-size: medium;
-    font-weight: lighter;
+    font-weight: normal;
 }
 
 .myBtn:hover {
@@ -209,7 +207,7 @@ body {
     color: var(--clr-hover-light);
 }
 
-/* ---------------------------- Browse ------------------------ */
+/* ---------------------------- Playlists ------------------------ */
 
 .linkStyling {
     text-decoration: none;
@@ -218,5 +216,13 @@ body {
 }
 
 .linkStyling:hover {
+    color: var(--clr-hover-light);
+}
+
+.blackA {
+    color: #000;
+}
+
+.blackA:hover {
     color: var(--clr-hover-light);
 }
