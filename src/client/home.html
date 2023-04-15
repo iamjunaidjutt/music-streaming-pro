@@ -22,17 +22,17 @@
 
 <body>
 	<div class="d-flex customLinearGradient">
-		<div class="d-flex flex-column justify-content-between flex-shrink-0 p-3 vh-100 myBg-Light position-fixed"
+		<nav class="d-flex flex-column justify-content-between flex-shrink-0 p-3 vh-100 myBg-Light position-fixed"
 			style="width: 280px;">
 			<div>
-				<a class="navbar-brand" href="#">
+				<a class="navbar-brand" href="./home.html">
 					<img src="/resources/headphones.svg" class="mb-1" alt="Bootstrap" width="30" height="24" />
 					<span class="fs-4 mt-4 myText-dark">Spotify Pro</span>
 				</a>
 				<hr>
 				<ul class="nav nav-pills flex-column mb-auto">
 					<li class="nav-item lHover">
-						<a href="#" class="myNav-link L-Affiliate-Tagged" aria-current="page">
+						<a href="./browse.html" class="myNav-link L-Affiliate-Tagged" aria-current="page">
 							<box-icon name='music' type='solid' color='#ffffff'></box-icon>
 							Browse
 						</a>
@@ -44,7 +44,7 @@
 						</a>
 					</li>
 					<li class="nav-item">
-						<a href="#" class="myNav-link L-Affiliate-Tagged">
+						<a href="./playlist.html" class="myNav-link L-Affiliate-Tagged">
 							<box-icon name='playlist' type='solid' color='#ffffff'></box-icon>
 							Playlists
 						</a>
@@ -90,8 +90,8 @@
 					<li><a class="dropdown-item L-Affiliate-Tagged" href="#">Sign out</a></li>
 				</ul>
 			</div>
-		</div>
-		<div class="container-md py-4" style="padding-left: 15em;">
+		</nav>
+		<main class="container-md py-4" style="padding-left: 15em;">
 			<h2 class="fs-1 fw-bold">Discover</h2>
 			<div class="artists">
 				<hr>
@@ -135,7 +135,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="mostPlayed mt-5">
+			<section class="mostPlayed mt-5">
 				<h3 class="fs-3 mb-3">Most Played Tracks</h3>
 				<hr>
 				<div class="p-3 row text-white-50 shadow myBg-gray rounded my-3">
@@ -240,10 +240,9 @@
 				<div class="text-center">
 					<button class="myBtn-light mt-3">Explore More</button>
 				</div>
-				<hr>
 
-			</div>
-		</div>	
+			</section>
+		</main>	
 	</div>
 	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
 		integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
