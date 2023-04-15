@@ -21,122 +21,229 @@
 </head>
 
 <body>
-	<!-- <nav class="navbar navbar-expand-lg bg-body-tertiary myBg-Light">
-		<div class="container-fluid">
-			<a class="navbar-brand" href="#">
-				<img src="/resources/headphones.svg" alt="Bootstrap" width="30" height="24" />
-			</a>
-			<a class="navbar-brand text-white" href="/src/client/home.html">Spotify Pro</a>
-			<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-				data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-				aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-			</button>
-			<div class="collapse navbar-collapse" id="navbarSupportedContent">
-				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
-					<li class="nav-item">
-						<a class="nav-link text-white" aria-current="page" href="#">Profile</a>
-					</li>
-					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown"
-							aria-expanded="false">
-							Playlists
-						</a>
-						<ul class="dropdown-menu">
-							<li>
-								<a class="dropdown-item" href="#">Action</a>
-							</li>
-							<li>
-								<a class="dropdown-item" href="#">Another action</a>
-							</li>
-							<li>
-								<hr class="dropdown-divider" />
-							</li>
-							<li>
-								<a class="dropdown-item" href="#">Something else here</a>
-							</li>
-						</ul>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link text-white" href="#">Logout</a>
-					</li>
-				</ul>
-				<form class="d-flex" role="search">
-					<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-					<button class="myBtn-light" type="submit">
-						Search
-					</button>
-				</form>
-			</div>
-		</div>
-	</nav> -->
-	<div class="d-flex flex-column justify-content-between flex-shrink-0 p-3 vh-100 myBg-Light" style="width: 280px;">
-		<div class="">
-			<a class="navbar-brand" href="#">
-				<img src="/resources/headphones.svg" class="mb-1" alt="Bootstrap" width="30" height="24" />
-				<span class="fs-4 mt-4">Spotify Pro</span>
-			</a>
-			<hr>
-			<ul class="nav nav-pills flex-column mb-auto">
-				<li class="nav-item lHover">
-					<a href="#" class="myNav-link L-Affiliate-Tagged" aria-current="page">
-						<box-icon name='music' type='solid' color='#ffffff' ></box-icon>
-						Browse
-					</a>
-				</li>
-				<li class="nav-item">
-					<a href="#" class="myNav-link L-Affiliate-Tagged">
-						<box-icon name='heart' type='solid' color='#ffffff' ></box-icon>
-						For You
-					</a>
-				</li>
-				<li class="nav-item">
-					<a href="#" class="myNav-link L-Affiliate-Tagged">
-						<box-icon name='playlist' type='solid' color='#ffffff' ></box-icon>
-						Playlists
-					</a>
-				</li>
-			</ul>
-			<div class="mt-5">
-				<p class="px-2 fw-light text-white fs-5">Your Music</p>
+	<div class="d-flex customLinearGradient">
+		<div class="d-flex flex-column justify-content-between flex-shrink-0 p-3 vh-100 myBg-Light position-fixed"
+			style="width: 280px;">
+			<div>
+				<a class="navbar-brand" href="#">
+					<img src="/resources/headphones.svg" class="mb-1" alt="Bootstrap" width="30" height="24" />
+					<span class="fs-4 mt-4 myText-dark">Spotify Pro</span>
+				</a>
 				<hr>
 				<ul class="nav nav-pills flex-column mb-auto">
 					<li class="nav-item lHover">
 						<a href="#" class="myNav-link L-Affiliate-Tagged" aria-current="page">
-							Liked Track
+							<box-icon name='music' type='solid' color='#ffffff'></box-icon>
+							Browse
 						</a>
 					</li>
 					<li class="nav-item">
 						<a href="#" class="myNav-link L-Affiliate-Tagged">
-							Artists
+							<box-icon name='heart' type='solid' color='#ffffff'></box-icon>
+							For You
 						</a>
 					</li>
 					<li class="nav-item">
 						<a href="#" class="myNav-link L-Affiliate-Tagged">
-							Categories
+							<box-icon name='playlist' type='solid' color='#ffffff'></box-icon>
+							Playlists
 						</a>
 					</li>
 				</ul>
+				<div class="mt-5">
+					<p class="px-2 fw-light text-white fs-5">Your Music</p>
+					<hr>
+					<ul class="nav nav-pills flex-column mb-auto">
+						<li class="nav-item lHover">
+							<a href="#" class="myNav-link L-Affiliate-Tagged" aria-current="page">
+								Liked Track
+							</a>
+						</li>
+						<li class="nav-item">
+							<a href="#" class="myNav-link L-Affiliate-Tagged">
+								Artists
+							</a>
+						</li>
+						<li class="nav-item">
+							<a href="#" class="myNav-link L-Affiliate-Tagged">
+								Categories
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="dropdown">
+				<hr>
+				<a href="#"
+					class="d-flex align-items-center text-white text-decoration-none dropdown-toggle L-Affiliate-Tagged"
+					data-bs-toggle="dropdown" aria-expanded="false">
+					<img src="https://github.com/mdo.png" alt="" width="32" height="32" class="rounded-circle me-2">
+					<strong>mdo</strong>
+				</a>
+				<ul class="dropdown-menu dropdown-menu-dark text-small shadow">
+					<li><a class="dropdown-item L-Affiliate-Tagged" href="#">Switch to Artist</a></li>
+					<li><a class="dropdown-item L-Affiliate-Tagged" href="#">Settings</a></li>
+					<li><a class="dropdown-item L-Affiliate-Tagged" href="#">Profile</a></li>
+					<li>
+						<hr class="dropdown-divider">
+					</li>
+					<li><a class="dropdown-item L-Affiliate-Tagged" href="#">Sign out</a></li>
+				</ul>
 			</div>
 		</div>
-		<div class="dropdown">
-			<hr>
-			<a href="#"
-				class="d-flex align-items-center text-white text-decoration-none dropdown-toggle L-Affiliate-Tagged"
-				data-bs-toggle="dropdown" aria-expanded="false">
-				<img src="https://github.com/mdo.png" alt="" width="32" height="32" class="rounded-circle me-2">
-				<strong>mdo</strong>
-			</a>
-			<ul class="dropdown-menu dropdown-menu-dark text-small shadow">
-				<li><a class="dropdown-item L-Affiliate-Tagged" href="#">Switch to Artist</a></li>
-				<li><a class="dropdown-item L-Affiliate-Tagged" href="#">Settings</a></li>
-				<li><a class="dropdown-item L-Affiliate-Tagged" href="#">Profile</a></li>
-				<li>
-					<hr class="dropdown-divider">
-				</li>
-				<li><a class="dropdown-item L-Affiliate-Tagged" href="#">Sign out</a></li>
-			</ul>
-		</div>
+		<div class="container-md py-4" style="padding-left: 15em;">
+			<h2 class="fs-1 fw-bold">Discover</h2>
+			<div class="artists">
+				<hr>
+				<div class="artists row mt-5">
+					<h3 class="fs-3 mb-3">Popular Artists</h3>
+					<div class="col">
+						<div class="card myBg-Light" style="width: 15rem;">
+							<img src="../../resources/artists/askingAlexanderia.jpeg" class="card-img-top" alt="Asking Alexanderia">
+							<div class="card-body">
+								<h5 class="card-title">Asking Alexanderia</h5>
+								<a href="#" class="myBtn">Explore More</a>
+							</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="card myBg-Light" style="width: 15rem;">
+							<img src="../../resources/artists/blur.jpeg" class="card-img-top" alt="Asking Alexanderia">
+							<div class="card-body">
+								<h5 class="card-title">Blur</h5>
+								<a href="#" class="myBtn">Explore More</a>
+							</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="card myBg-Light" style="width: 15rem;">
+							<img src="../../resources/artists/avicii.jpeg" class="card-img-top" alt="Asking Alexanderia">
+							<div class="card-body">
+								<h5 class="card-title">Avicii</h5>
+								<a href="#" class="myBtn">Explore More</a>
+							</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="card myBg-Light" style="width: 15rem;">
+							<img src="../../resources/artists/more.png" class="card-img-top" alt="Asking Alexanderia">
+							<div class="card-body">
+								<h5 class="card-title">For More Artists</h5>
+								<a href="#" class="myBtn">Click Here</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="mostPlayed mt-5">
+				<h3 class="fs-3 mb-3">Most Played Tracks</h3>
+				<hr>
+				<div class="p-3 row text-white-50 shadow myBg-gray rounded my-3">
+					<div class="col">01</div>		
+					<div class="col-5">This is the first song</div>
+					<div class="col-3">Blur</div>
+					<div class="col">03:15</div>
+					<div class="dropdown col">
+						<a href="#"
+							class="d-flex align-items-center text-white text-decoration-none L-Affiliate-Tagged"
+							data-bs-toggle="dropdown" aria-expanded="false">
+							<box-icon name='dots-horizontal-rounded' color='#ffffff' ></box-icon>
+						</a>
+						<ul class="dropdown-menu dropdown-menu-dark text-small shadow">
+							<li><a class="dropdown-item L-Affiliate-Tagged" href="#">Play</a></li>
+							<li><a class="dropdown-item L-Affiliate-Tagged" href="#">Add to Favorite</a></li>
+							<li><a class="dropdown-item L-Affiliate-Tagged" href="#">Remove from Playlist</a></li>
+							<li><a class="dropdown-item L-Affiliate-Tagged" href="#">Share</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="p-3 row text-white-50 shadow myBg-gray rounded my-3">
+					<div class="col">02</div>
+					<div class="col-5">This is the second song</div>
+					<div class="col-3">Asking Alexanderia</div>
+					<div class="col">03:03</div>
+					<div class="dropdown col">
+						<a href="#"
+							class="d-flex align-items-center text-white text-decoration-none L-Affiliate-Tagged"
+							data-bs-toggle="dropdown" aria-expanded="false">
+							<box-icon name='dots-horizontal-rounded' color='#ffffff' ></box-icon>
+						</a>
+						<ul class="dropdown-menu dropdown-menu-dark text-small shadow">
+							<li><a class="dropdown-item L-Affiliate-Tagged" href="#">Play</a></li>
+							<li><a class="dropdown-item L-Affiliate-Tagged" href="#">Add to Favorite</a></li>
+							<li><a class="dropdown-item L-Affiliate-Tagged" href="#">Remove from Playlist</a></li>
+							<li><a class="dropdown-item L-Affiliate-Tagged" href="#">Share</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="p-3 row text-white-50 shadow myBg-gray rounded my-3">
+					<div class="col">03</div>
+					<div class="col-5">This is the third song</div>
+					<div class="col-3">Avicii</div>
+					<div class="col">04:12</div>
+					<div class="dropdown col">
+						<a href="#"
+							class="d-flex align-items-center text-white text-decoration-none L-Affiliate-Tagged"
+							data-bs-toggle="dropdown" aria-expanded="false">
+							<box-icon name='dots-horizontal-rounded' color='#ffffff' ></box-icon>
+						</a>
+						<ul class="dropdown-menu dropdown-menu-dark text-small shadow">
+							<li><a class="dropdown-item L-Affiliate-Tagged" href="#">Play</a></li>
+							<li><a class="dropdown-item L-Affiliate-Tagged" href="#">Add to Favorite</a></li>
+							<li><a class="dropdown-item L-Affiliate-Tagged" href="#">Remove from Playlist</a></li>
+							<li><a class="dropdown-item L-Affiliate-Tagged" href="#">Share</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="p-3 row text-white-50 shadow myBg-gray rounded my-3">
+					<div class="col">04</div>
+					<div class="col-5">This is the fourth song</div>
+					<div class="col-3">Blur</div>
+					<div class="col">02:50</div>
+					<div class="dropdown col">
+						<a href="#"
+							class="d-flex align-items-center text-white text-decoration-none L-Affiliate-Tagged"
+							data-bs-toggle="dropdown" aria-expanded="false">
+							<box-icon name='dots-horizontal-rounded' color='#ffffff' ></box-icon>
+						</a>
+						<ul class="dropdown-menu dropdown-menu-dark text-small shadow">
+							<li><a class="dropdown-item L-Affiliate-Tagged" href="#">Play</a></li>
+							<li><a class="dropdown-item L-Affiliate-Tagged" href="#">Add to Favorite</a></li>
+							<li><a class="dropdown-item L-Affiliate-Tagged" href="#">Remove from Playlist</a></li>
+							<li><a class="dropdown-item L-Affiliate-Tagged" href="#">Share</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="p-3 row text-white-50 shadow myBg-gray rounded my-3">
+					<div class="col">05</div>
+					<div class="col-5">This is the fifth song</div>
+					<div class="col-3">Avicii</div>
+					<div class="col">04:50</div>
+					<div class="dropdown col">
+						<a href="#"
+							class="d-flex align-items-center text-white text-decoration-none L-Affiliate-Tagged"
+							data-bs-toggle="dropdown" aria-expanded="false">
+							<box-icon name='dots-horizontal-rounded' color='#ffffff' ></box-icon>
+						</a>
+						<ul class="dropdown-menu dropdown-menu-dark text-small shadow">
+							<li><a class="dropdown-item L-Affiliate-Tagged" href="#">Play</a></li>
+							<li><a class="dropdown-item L-Affiliate-Tagged" href="#">Add to Favorite</a></li>
+							<li><a class="dropdown-item L-Affiliate-Tagged" href="#">Remove from Playlist</This is the first song
+								Blur
+								03:15
+								02
+								a></li>
+							<li><a class="dropdown-item L-Affiliate-Tagged" href="#">Share</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="text-center">
+					<button class="myBtn-light mt-3">Explore More</button>
+				</div>
+				<hr>
+
+			</div>
+		</div>	
 	</div>
 	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
 		integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
